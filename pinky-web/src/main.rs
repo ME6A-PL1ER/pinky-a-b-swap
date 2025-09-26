@@ -413,19 +413,19 @@ impl PinkyWeb {
             ("Right", _) => nes::Button::Right,
             ("Down", _) => nes::Button::Down,
 
-            ("z", _) => nes::Button::A,
-            ("x", _) => nes::Button::B,
+            ("z", _) => nes::Button::B,
+            ("x", _) => nes::Button::A,
 
             // For those using the Dvorak layout.
-            (";", _) => nes::Button::A,
-            ("q", _) => nes::Button::B,
+            (";", _) => nes::Button::B,
+            ("q", _) => nes::Button::A,
 
             // For those using the Dvorak layout **and** Microsoft Edge.
             //
             // On `keydown` we get ";" as we should, but on `keyup`
             // we get "Unidentified". Seriously Microsoft, how buggy can
             // your browser be?
-            ("Unidentified", _) if is_pressed == false => nes::Button::A,
+            ("Unidentified", _) if is_pressed == false => nes::Button::B,
 
             _ => return false
         };
