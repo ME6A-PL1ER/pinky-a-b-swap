@@ -1,11 +1,11 @@
-[![Build Status](https://api.travis-ci.org/koute/pinky.svg)](https://travis-ci.org/koute/pinky)
+[![Deploy to GitHub Pages](https://github.com/ME6A-PL1ER/pinky-a-b-swap/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/ME6A-PL1ER/pinky-a-b-swap/actions/workflows/deploy-pages.yml)
 
 # Pinky
 
 Pinky is an [NES] emulator written in [Rust] completely from scratch
 based only on [publicly available documentation].
 
-You can [run it in your Web browser](http://koute.github.io/pinky-web/)!
+You can [run it in your Web browser](https://ME6A-PL1ER.github.io/pinky-a-b-swap/)!
 
 [NES]: https://en.wikipedia.org/wiki/Nintendo_Entertainment_System
 [Rust]: https://www.rust-lang.org/en-US/
