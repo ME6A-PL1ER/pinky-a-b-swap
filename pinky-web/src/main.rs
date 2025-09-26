@@ -369,7 +369,7 @@ impl PinkyWeb {
                     js!( console.error( "Execution error:", @{format!( "{}", error )} ); );
                     self.pause();
 
-                    return Err( error );
+                    return Err( Box::new(error) );
                 }
             }
         }
