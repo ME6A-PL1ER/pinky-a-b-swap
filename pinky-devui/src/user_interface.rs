@@ -31,8 +31,8 @@ fn keycode_to_button( keycode: Keycode ) -> Option< Button > {
         Keycode::Down => Button::Down,
         Keycode::Return => Button::Start,
         Keycode::RShift => Button::Select,
-        Keycode::LCtrl => Button::A,
-        Keycode::LAlt => Button::B,
+        Keycode::LCtrl => Button::B,
+        Keycode::LAlt => Button::A,
         _ => return None
     };
 
